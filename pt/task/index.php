@@ -61,13 +61,13 @@
                     
                     	<div class="form-group col-lg-12">
                        		<label>Upload Mark Sheet</label>
-                        	<input type="file">
+                        	<input id="onef" type="file">
                     	</div>
                    		<div class="form-group col-lg-12">
                        		<label>Upload Resume</label>
-                       		<input type="file">
+                       		<input id="#2f" type="file">
                    		</div>
-                       	<center><button type="submit" class="btn btn-primary">SUBMIT</button></center>
+                       	<center><button type="submit" id="s" class="btn btn-primary">SUBMIT</button></center>
                        	</form>  
         			</div>
     			</section>
