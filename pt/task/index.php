@@ -46,27 +46,20 @@
         			<div id="form">
                 		<form action="insert3.php" method="post">
                     		<div class="form-group col-lg-12">
-                        		<label for="inputEmail">Name</label>
-                        		<input type="text"  name="name" class="form-control" placeholder="Name">
+                        		<label for="inputName">Name</label>
+    							<input type="text" name="name"  class="form-control" placeholder="Name"></td></tr>
                     		</div>
                     		<div class="form-group col-lg-12">
                         		<label for="inputEmail">Email</label>
                         		<input type="email" name="email" class="form-control" placeholder="Email">
                     		</div>
                     		<div class="form-group col-lg-12">
-                        		<label for="inputPassword">Phone number</label>
+                        		<label for="inputPhoneNumber">Phone number</label>
                         		<input type="text" name="contact" class="form-control" placeholder="9999999999" minlength="10" maxlength="10">
                     		</div>
-                    	
-                    
-                    	<div class="form-group col-lg-12">
-                       		<label>Upload Mark Sheet</label>
-                        	<input id="onef" type="file">
-                    	</div>
-                   		<div class="form-group col-lg-12">
-                       		<label>Upload Resume</label>
-                       		<input id="#2f" type="file">
-                   		</div>
+                    		<div class="form-group col-lg-12">
+                       			<input type="file" name="files[]" multiple="" />
+                    		</div>
                        	<center><button type="submit" id="s" class="btn btn-primary">SUBMIT</button></center>
                        	</form>  
         			</div>
