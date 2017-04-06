@@ -1,3 +1,11 @@
+<?php
+	define("TITLE", "Task");
+	$my_name	= "Shri Shruthi";
+	
+	if (isset ($_GET['ref'])) {
+		$ref = $_GET['ref'];
+	}
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -41,7 +49,7 @@
 						mysql_select_db("shri_task", $con); 
 						$result = mysql_query("SELECT * FROM upload"); 
 						echo "<table border='1' width='50%' >"; 
-						echo "<tr><th>Id</th><th>Name</th><th>Email</th><th>Conatct</th><th>File</th></tr>" ;
+						echo "<tr><th>Id</th><th>Name</th><th>Email</th><th>Contact</th><th>File</th></tr>" ;
 				    	while($row = mysql_fetch_array($result)) { 
 				        	echo "<tr>";
 				        	echo "<td>".$row[0]."</td>";
